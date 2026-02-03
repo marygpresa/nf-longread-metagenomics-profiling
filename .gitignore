@@ -1,0 +1,23 @@
+# Nextflow
+.work/
+.nextflow/
+.nextflow.log*
+timeline.html
+trace.txt
+report.html
+dag.html
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+
+# Python / R
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+
+# Editors
+.vscode/
