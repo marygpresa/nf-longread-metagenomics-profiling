@@ -3,8 +3,7 @@
 # Long-read Metagenomic ONT data Nextflow Pipeline
 A modular Nextflow pipeline for processing long-read sequencing data (BAM/POD5/FASTQ) and generating taxonomic profiles using Kraken.
 
-This pipeline is designed to be reusable across environmental and biological datasets.
-An example application is environmental DNA analysis in freshwater mussel samples.
+This pipeline is designed to be reusable across biological datasets. It was originally used in our bigger project called "Development of a Comprehensive Metagenomic Pipeline", but here I share a general approach of the pipeline for transferable use.
 
 ## Features
 - Modular Nextflow DSL2 structure
