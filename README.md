@@ -13,3 +13,5 @@ An example application is environmental DNA analysis in freshwater mussel sample
 - Taxonomic profiling
 - Reproducible and portable workflows
 
+## Status
+in process, updating
