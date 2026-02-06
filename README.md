@@ -18,3 +18,9 @@ This is the subset of the project were I helped developed the pipeline but I wan
 
 ## Status
 in process, updating
+
+## What you need
+Docker installed 
+https://docs.docker.com/desktop/setup/install/mac-install/
+This will help run containers instead of asking you to install every single package or programme in your computer; e.g. dorado, samtools, kraken...
+
