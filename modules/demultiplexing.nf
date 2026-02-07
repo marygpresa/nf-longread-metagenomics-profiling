@@ -1,4 +1,6 @@
 process demultiplexing {
+    container "nanoporetech/dorado:latest"
+
     tag "demux"
     publishDir "${params.outdir}/demux_bams", mode: 'copy'
 

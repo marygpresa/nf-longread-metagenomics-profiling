@@ -1,5 +1,6 @@
 process bam2fastq {
 
+    container "quay.io/biocontainers/samtools:1.23--h96c455f_0"
     // tag { demux.baseName }
     publishDir "${params.outdir}/fastqs",mode: 'copy'
 
