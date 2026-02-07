@@ -1,4 +1,7 @@
 process basecalling {
+
+    container "nanoporetech/dorado:latest"
+
     tag "basecalling"
 
     input:

@@ -1,0 +1,87 @@
+Unable to find image 'nanoporetech/dorado:latest' locally
+latest: Pulling from nanoporetech/dorado
+2dfb1770a774: Pulling fs layer
+9aca28b29522: Pulling fs layer
+2f6b86637123: Pulling fs layer
+05bcb562b36f: Pulling fs layer
+71d57df1717b: Pulling fs layer
+86e5016c2693: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+58100cbf87c6: Pulling fs layer
+73389fbd088f: Pulling fs layer
+941deb716cd3: Pulling fs layer
+76fa613d0dec: Pulling fs layer
+a2e3c81a4b6c: Pulling fs layer
+c2e90bc82e30: Pulling fs layer
+bd7e491eb2ed: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+5e7dff2bf85f: Pulling fs layer
+bd8cea7ac741: Pulling fs layer
+1522197f4360: Pulling fs layer
+0a6746393a67: Pulling fs layer
+ff1e7fdebabb: Pulling fs layer
+6a24352c4b6d: Pulling fs layer
+10443e7a4566: Pulling fs layer
+937cdfd6e217: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+3f2c056c8cfd: Pulling fs layer
+cab229d1f07f: Pulling fs layer
+9aca28b29522: Pulling fs layer
+7e62cd313695: Pulling fs layer
+9aca28b29522: Download complete
+2f6b86637123: Download complete
+4f4fb700ef54: Download complete
+5e7dff2bf85f: Download complete
+76fa613d0dec: Download complete
+05bcb562b36f: Download complete
+941deb716cd3: Download complete
+58100cbf87c6: Download complete
+c2e90bc82e30: Download complete
+bd7e491eb2ed: Download complete
+bd8cea7ac741: Download complete
+1522197f4360: Download complete
+937cdfd6e217: Download complete
+3f2c056c8cfd: Download complete
+6a24352c4b6d: Download complete
+73389fbd088f: Download complete
+cab229d1f07f: Download complete
+ff1e7fdebabb: Download complete
+71d57df1717b: Download complete
+a2e3c81a4b6c: Download complete
+86e5016c2693: Download complete
+86e5016c2693: Pull complete
+71d57df1717b: Pull complete
+0a6746393a67: Download complete
+58100cbf87c6: Pull complete
+73389fbd088f: Pull complete
+0a6746393a67: Pull complete
+10443e7a4566: Download complete
+2dfb1770a774: Download complete
+9aca28b29522: Pull complete
+2f6b86637123: Pull complete
+5e7dff2bf85f: Pull complete
+76fa613d0dec: Pull complete
+941deb716cd3: Pull complete
+c2e90bc82e30: Pull complete
+ff1e7fdebabb: Pull complete
+2dfb1770a774: Pull complete
+bd8cea7ac741: Pull complete
+937cdfd6e217: Pull complete
+6a24352c4b6d: Pull complete
+cab229d1f07f: Pull complete
+a2e3c81a4b6c: Pull complete
+7e62cd313695: Download complete
+05bcb562b36f: Pull complete
+bd7e491eb2ed: Pull complete
+1522197f4360: Pull complete
+3f2c056c8cfd: Pull complete
+7e62cd313695: Pull complete
+4f4fb700ef54: Pull complete
+10443e7a4566: Pull complete
+Digest: sha256:6156fdbb48ff13fbb141b4f1fc6e6300f05221ecfdd114fc8323a0e38296c1dd
+Status: Downloaded newer image for nanoporetech/dorado:latest
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[2026-02-07 00:49:34.016] [info] Running: "basecaller" "sup" "sample7.pod5" "--no-trim" "--kit-name" "SQK-NBD114-96"
+[2026-02-07 00:49:36.240] [info] Failed to load NVML
+[2026-02-07 00:49:36.354] [info]  - downloading dna_r10.4.1_e8.2_400bps_sup@v5.2.0 with httplib
+[2026-02-07 00:49:49.127] [info] > Creating basecall pipeline
