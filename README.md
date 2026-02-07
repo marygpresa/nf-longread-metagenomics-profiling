@@ -1,12 +1,12 @@
 # nf-longread-metagenomics-profiling
 
 # Long-read Metagenomic ONT data Nextflow Pipeline
-A modular Nextflow pipeline for processing long-read sequencing data (BAM/POD5/FASTQ) and generating taxonomic profiles using Kraken.
+A modular Nextflow pipeline for processing long-read sequencing data (POD5/BAM/FASTQ) and generating taxonomic profiles using Kraken.
 
 This pipeline is designed to be reusable across biological datasets. It was originally used in our bigger project called "Development of a Comprehensive Metagenomic Pipeline", but here I share a general approach of the pipeline for transferable use.
 
 ## Features
-- Modular Nextflow DSL2 structure
+- Modular Nextflow structure
 - Long-read preprocessing
 - Taxonomic profiling
 - Reproducible and portable workflows
