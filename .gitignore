@@ -21,3 +21,5 @@ __pycache__/
 
 # Editors
 .vscode/
+work/
+results/
