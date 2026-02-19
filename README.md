@@ -11,6 +11,10 @@ This pipeline is designed to be reusable across biological datasets. It was orig
 - Taxonomic profiling
 - Reproducible and portable workflows
 
+## Platform Support
+This pipeline supports both Intel/AMD64 and Apple Silicon (ARM64) architectures.
+On ARM64 systems, Docker will automatically use emulation for AMD64 containers.
+
 ## Context
 This pipeline is a subset of the overall project DCEMP found in https://github.com/DACossey/DCEMP. The overall project aimed to develope an environmental pipeline for identifying  pathogenes causing massive extintion events in freshwater bivalves. Downstream analysis of that project should be published in the DCEMP repository.
 

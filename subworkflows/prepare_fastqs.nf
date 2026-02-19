@@ -20,6 +20,8 @@ include { bam2fastq }      from '../modules/bam2fastq.nf'
 ========================================================================================
 */
 workflow prepare_fastqs {
+
+    main:
     fastqs_ch = Channel.empty()
 
     if (params.pod5_dir) {
@@ -46,5 +48,5 @@ workflow prepare_fastqs {
     }
 
     emit:
-    fastqs_ch
+    fastqs = fastqs_ch
 }
